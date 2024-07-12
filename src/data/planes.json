@@ -1,0 +1,54 @@
+[
+    {
+      "id": 1,
+      "nombre": "Plan Básico",
+      "descripcion": "Ideal para pequeñas empresas que necesitan una presencia en línea básica.",
+      "precio": 50000,
+      "duracion": "mensual",
+      "caracteristicas": [
+        "Dominio personalizado",
+        "Certificado SSL",
+        "Hosting compartido",
+        "Soporte por correo electrónico"
+      ],
+      "nivel": "basico",
+      "disponibilidad": true,
+      "fechaInicio": "2024-01-01",
+      "fechaFin": null
+    },
+    {
+      "id": 2,
+      "nombre": "Plan Estándar",
+      "descripcion": "Perfecto para negocios medianos que necesitan más funcionalidad y soporte.",
+      "precio": 100000,
+      "duracion": "mensual",
+      "caracteristicas": [
+        "Todo en el Plan Básico",
+        "Mayor espacio de almacenamiento",
+        "Soporte técnico 24/7",
+        "Integración con redes sociales"
+      ],
+      "nivel": "estandar",
+      "disponibilidad": true,
+      "fechaInicio": "2024-01-01",
+      "fechaFin": null
+    },
+    {
+      "id": 3,
+      "nombre": "Plan Premium",
+      "descripcion": "La mejor opción para grandes empresas que necesitan soluciones avanzadas y personalizadas.",
+      "precio": 200000,
+      "duracion": "mensual",
+      "caracteristicas": [
+        "Todo en el Plan Estándar",
+        "Soporte dedicado",
+        "Optimización SEO avanzada",
+        "Análisis de datos y reportes personalizados"
+      ],
+      "nivel": "premium",
+      "disponibilidad": true,
+      "fechaInicio": "2024-01-01",
+      "fechaFin": null
+    }
+  ]
+  

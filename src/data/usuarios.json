@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "nombreCompleto": "Juan Pérez",
+      "edad": 28,
+      "correo": "juan.perez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Chileno",
+      "telefono": "+56 9 1234 5678"
+    },
+    {
+      "id": 2,
+      "nombreCompleto": "María López",
+      "edad": 32,
+      "correo": "maria.lopez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Mexicana",
+      "telefono": "+52 1 555 123 4567"
+    },
+    {
+      "id": 3,
+      "nombreCompleto": "Carlos Fernández",
+      "edad": 25,
+      "correo": "carlos.fernandez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Argentino",
+      "telefono": "+54 9 11 2345 6789"
+    },
+    {
+      "id": 4,
+      "nombreCompleto": "Ana Gómez",
+      "edad": 29,
+      "correo": "ana.gomez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Española",
+      "telefono": "+34 612 345 678"
+    },
+    {
+      "id": 5,
+      "nombreCompleto": "Luis Rodríguez",
+      "edad": 35,
+      "correo": "luis.rodriguez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Colombiano",
+      "telefono": "+57 310 123 4567"
+    },
+    {
+      "id": 6,
+      "nombreCompleto": "Patricia Martínez",
+      "edad": 30,
+      "correo": "patricia.martinez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Peruana",
+      "telefono": "+51 912 345 678"
+    },
+    {
+      "id": 7,
+      "nombreCompleto": "Javier Díaz",
+      "edad": 27,
+      "correo": "javier.diaz@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Venezolano",
+      "telefono": "+58 424 123 4567"
+    },
+    {
+      "id": 8,
+      "nombreCompleto": "Laura Torres",
+      "edad": 26,
+      "correo": "laura.torres@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Uruguaya",
+      "telefono": "+598 94 123 456"
+    },
+    {
+      "id": 9,
+      "nombreCompleto": "Miguel Sánchez",
+      "edad": 33,
+      "correo": "miguel.sanchez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Paraguayo",
+      "telefono": "+595 981 123 456"
+    },
+    {
+      "id": 10,
+      "nombreCompleto": "Carolina Ramírez",
+      "edad": 31,
+      "correo": "carolina.ramirez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Boliviana",
+      "telefono": "+591 712 34567"
+    },
+    {
+      "id": 11,
+      "nombreCompleto": "Fernando Ruiz",
+      "edad": 24,
+      "correo": "fernando.ruiz@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Cubano",
+      "telefono": "+53 5 1234567"
+    },
+    {
+      "id": 12,
+      "nombreCompleto": "Sofía Morales",
+      "edad": 28,
+      "correo": "sofia.morales@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Ecuatoriana",
+      "telefono": "+593 99 123 4567"
+    },
+    {
+      "id": 13,
+      "nombreCompleto": "Ricardo Herrera",
+      "edad": 34,
+      "correo": "ricardo.herrera@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Panameño",
+      "telefono": "+507 6123 4567"
+    },
+    {
+      "id": 14,
+      "nombreCompleto": "Gabriela Méndez",
+      "edad": 29,
+      "correo": "gabriela.mendez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Costarricense",
+      "telefono": "+506 7012 3456"
+    },
+    {
+      "id": 15,
+      "nombreCompleto": "Diego Paredes",
+      "edad": 27,
+      "correo": "diego.paredes@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Salvadoreño",
+      "telefono": "+503 7012 3456"
+    },
+    {
+      "id": 16,
+      "nombreCompleto": "Martina Ortega",
+      "edad": 32,
+      "correo": "martina.ortega@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Hondureña",
+      "telefono": "+504 9123 4567"
+    },
+    {
+      "id": 17,
+      "nombreCompleto": "Pablo Álvarez",
+      "edad": 26,
+      "correo": "pablo.alvarez@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Guatemalteco",
+      "telefono": "+502 5123 4567"
+    },
+    {
+      "id": 18,
+      "nombreCompleto": "Lucía Castro",
+      "edad": 30,
+      "correo": "lucia.castro@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Nicaragüense",
+      "telefono": "+505 8123 4567"
+    },
+    {
+      "id": 19,
+      "nombreCompleto": "Alejandro Vega",
+      "edad": 25,
+      "correo": "alejandro.vega@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Puertorriqueño",
+      "telefono": "+1 787 123 4567"
+    },
+    {
+      "id": 20,
+      "nombreCompleto": "Isabel Reyes",
+      "edad": 31,
+      "correo": "isabel.reyes@example.com",
+      "contrasena": "password123",
+      "nacionalidad": "Dominicana",
+      "telefono": "+1 829 123 4567"
+    }
+  ]
+  

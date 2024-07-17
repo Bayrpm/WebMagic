@@ -1,5 +1,6 @@
 ---
-
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
 ---
 
 <!doctype html>
@@ -10,14 +11,11 @@
     <title>WebMagic</title>
   </head>
   <body>
-
+    <Navbar />
     <div class="background-container">
-
-      
-  
       <slot />
-
     </div>
+    <Footer />
   </body>
 </html>
 

@@ -1,0 +1,50 @@
+---
+
+---
+
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebMagic</title>
+  </head>
+  <body>
+
+    <div class="background-container">
+
+      
+  
+      <slot />
+
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .background-container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #ffffff, #a8a8a8, #696969, #000000);
+    background-size: 400% 400%;
+    animation: color 12s ease-in-out infinite;
+  }
+
+  @keyframes color {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>

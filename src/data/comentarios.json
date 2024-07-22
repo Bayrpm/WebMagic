@@ -1,163 +1,142 @@
 [
-    {
+  {
       "id": 1,
       "usuarioId": 1,
       "fecha": "2024-07-11",
       "contenido": "Excelente servicio, muy satisfecho con el resultado final.",
-      "calificacion": 5,
-      "planId": 2
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 2,
       "usuarioId": 2,
       "fecha": "2024-07-12",
       "contenido": "Buen servicio, pero hubo algunos retrasos en la entrega.",
-      "calificacion": 4,
-      "planId": 1
-    },
-    {
+      "calificacion": 4
+  },
+  {
       "id": 3,
       "usuarioId": 3,
       "fecha": "2024-07-13",
       "contenido": "El equipo fue muy profesional y atento a nuestras necesidades.",
-      "calificacion": 5,
-      "planId": 3
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 4,
       "usuarioId": 4,
       "fecha": "2024-07-14",
       "contenido": "El servicio fue aceptable, aunque el soporte podría mejorar.",
-      "calificacion": 3,
-      "planId": 2
-    },
-    {
+      "calificacion": 3
+  },
+  {
       "id": 5,
       "usuarioId": 5,
       "fecha": "2024-07-15",
       "contenido": "Muy buen trabajo, la página web quedó tal como la queríamos.",
-      "calificacion": 5,
-      "planId": 3
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 6,
       "usuarioId": 6,
       "fecha": "2024-07-16",
       "contenido": "La experiencia fue bastante buena, aunque el proceso fue un poco largo.",
-      "calificacion": 4,
-      "planId": 1
-    },
-    {
+      "calificacion": 4
+  },
+  {
       "id": 7,
       "usuarioId": 7,
       "fecha": "2024-07-17",
       "contenido": "La calidad del trabajo es excelente, el equipo es muy profesional.",
-      "calificacion": 5,
-      "planId": 2
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 8,
       "usuarioId": 8,
       "fecha": "2024-07-18",
       "contenido": "Buen servicio, pero podría mejorar en la comunicación.",
-      "calificacion": 3,
-      "planId": 1
-    },
-    {
+      "calificacion": 3
+  },
+  {
       "id": 9,
       "usuarioId": 9,
       "fecha": "2024-07-19",
       "contenido": "El resultado final superó nuestras expectativas.",
-      "calificacion": 5,
-      "planId": 3
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 10,
       "usuarioId": 10,
       "fecha": "2024-07-20",
       "contenido": "El proceso fue muy eficiente y el resultado final fue excelente.",
-      "calificacion": 5,
-      "planId": 2
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 11,
       "usuarioId": 11,
       "fecha": "2024-07-21",
       "contenido": "La página web quedó muy bien, aunque tardó un poco más de lo esperado.",
-      "calificacion": 4,
-      "planId": 1
-    },
-    {
+      "calificacion": 4
+  },
+  {
       "id": 12,
       "usuarioId": 12,
       "fecha": "2024-07-22",
       "contenido": "Estamos muy contentos con el servicio y el soporte recibido.",
-      "calificacion": 5,
-      "planId": 3
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 13,
       "usuarioId": 13,
       "fecha": "2024-07-23",
       "contenido": "El equipo fue muy profesional y eficiente en todo momento.",
-      "calificacion": 5,
-      "planId": 2
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 14,
       "usuarioId": 14,
       "fecha": "2024-07-24",
       "contenido": "El servicio fue bueno, aunque el precio es un poco alto.",
-      "calificacion": 4,
-      "planId": 1
-    },
-    {
+      "calificacion": 4
+  },
+  {
       "id": 15,
       "usuarioId": 15,
       "fecha": "2024-07-25",
       "contenido": "Estamos muy satisfechos con el resultado final.",
-      "calificacion": 5,
-      "planId": 3
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 16,
       "usuarioId": 16,
       "fecha": "2024-07-26",
       "contenido": "El proceso fue rápido y eficiente, estamos muy contentos.",
-      "calificacion": 5,
-      "planId": 2
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 17,
       "usuarioId": 17,
       "fecha": "2024-07-27",
       "contenido": "El servicio fue aceptable, pero la comunicación podría mejorar.",
-      "calificacion": 3,
-      "planId": 1
-    },
-    {
+      "calificacion": 3
+  },
+  {
       "id": 18,
       "usuarioId": 18,
       "fecha": "2024-07-28",
       "contenido": "La calidad del trabajo es muy buena, estamos satisfechos.",
-      "calificacion": 5,
-      "planId": 3
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 19,
       "usuarioId": 19,
       "fecha": "2024-07-29",
       "contenido": "El resultado final fue excelente, superó nuestras expectativas.",
-      "calificacion": 5,
-      "planId": 2
-    },
-    {
+      "calificacion": 5
+  },
+  {
       "id": 20,
       "usuarioId": 20,
       "fecha": "2024-07-30",
       "contenido": "El equipo fue muy profesional y atento, estamos muy contentos.",
-      "calificacion": 5,
-      "planId": 3
-    }
-  ]
-  
+      "calificacion": 5
+  }
+]

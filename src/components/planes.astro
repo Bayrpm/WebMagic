@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import planes from "../data/planes.json";
 ---
 
-<div class="flex flex-col md:flex-row ">
+<div class="flex flex-col md:flex-row">
   {planes.map((plan) => (
     <div class="flex flex-col max-w-sm p-5 m-6 bg-white border border-gray-200 rounded-lg shadow sm:p-9 dark:bg-gray-800 dark:border-gray-700">
       <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
@@ -18,13 +18,14 @@ import planes from "../data/planes.json";
         </span>
       </div>
       <p class="mt-4 text-gray-500 dark:text-gray-400">{plan.descripcion}</p>
-  
+
       <!-- Características -->
       <ul role="list" class="space-y-5 my-7">
-        {plan.caracteristicas.slice(0, 5).map((caracteristica) => (
-          <li class={`flex items-center ${caracteristica.disponible ? "" : "line-through decoration-gray-500"}`}>
+        {plan.caracteristicas.map((caracteristica, index) => (
+          <li id={caracteristica} id={`comment-${index}`} class="flex items-center">
+            
             <svg
-              class={`flex-shrink-0 w-4 h-4 ${caracteristica.disponible ? "text-blue-700 dark:text-blue-500" : "text-gray-400 dark:text-gray-500"}`}
+              class="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -34,44 +35,13 @@ import planes from "../data/planes.json";
                 d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
               ></path>
             </svg>
-            <span class={`text-base font-normal leading-tight ${caracteristica.disponible ? "text-gray-500 dark:text-gray-400 ms-3" : "text-gray-500 dark:text-gray-400 ms-3"}`}>
-              {caracteristica.nombre}
+            <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">
+              {caracteristica}
             </span>
           </li>
         ))}
-
-        <!-- Características adicionales ocultas -->
-        <li class="relative group">
-          <ul id={`expandable-list-${plan.id}`} class="space-y-5 my-7 max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-            {plan.caracteristicas.slice(5).map((caracteristica) => (
-              <li
-                class={`flex items-center ${caracteristica.disponible ? '' : 'line-through decoration-gray-500'}`}
-              >
-                <svg
-                  class={`flex-shrink-0 w-4 h-4 ${caracteristica.disponible ? 'text-blue-700 dark:text-blue-500' : 'text-gray-400 dark:text-gray-500'}`}
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
-                  ></path>
-                </svg>
-                <span
-                  class={`text-base font-normal leading-tight ${caracteristica.disponible ? 'text-gray-500 dark:text-gray-400 ms-3' : 'text-gray-500 dark:text-gray-400 ms-3'}`}
-                >
-                  {caracteristica.nombre}
-                </span>
-              </li>
-            ))}
-          </ul>
-          <button id={`show-more-btn-${plan.id}`} class="text-blue-700 dark:text-blue-500 mt-4 block text-center">
-            Show More
-          </button>
-        </li>
       </ul>
-  
+
       <button
         type="button"
         class="text-white mt-auto bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
@@ -81,6 +51,7 @@ import planes from "../data/planes.json";
     </div>
   ))}
 </div>
+
 
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {

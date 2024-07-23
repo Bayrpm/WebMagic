@@ -13,9 +13,10 @@ const getUserName = (usuarioId: number) => {
 ---
 
 <div class="grid gap-8 mb-8 md:grid-cols-2 lg:grid-cols-4 m-16">
-    {comentarios.slice(0, 8).map((comentario) => {
+  {
+    comentarios.slice(0, 8).map((comentario) => {
       const { nombreCompleto, icono } = getUserName(comentario.usuarioId);
-  
+
       return (
         <figure
           id={comentario.id}
@@ -45,5 +46,6 @@ const getUserName = (usuarioId: number) => {
           </figcaption>
         </figure>
       );
-    })}
-  </div>
+    })
+  }
+</div>

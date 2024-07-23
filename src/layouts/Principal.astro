@@ -1,6 +1,5 @@
 ---
-import Footer from "../components/Footer.astro";
-import Navbar from "../components/Navbar.astro";
+
 ---
 
 <!doctype html>
@@ -10,17 +9,9 @@ import Navbar from "../components/Navbar.astro";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebMagic</title>
   </head>
-  <body class="background-container">
-    <Navbar />
-    <div class="content">
+  <body>
 
-
-      <slot />
-
-    </div>
-    
-    <Footer />
-    <script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+    <slot />
   </body>
 </html>
 
@@ -31,12 +22,9 @@ import Navbar from "../components/Navbar.astro";
     box-sizing: border-box;
   }
 
-.content{
-  height: 100vh;
-  max-width: 100vw;
-}
-
   .background-container {
+    height: 100vh;
+    width: 100vw;
     background: linear-gradient(45deg, #ffffff, #a8a8a8, #696969, #000000);
     background-size: 400% 400%;
     animation: color 12s ease-in-out infinite;

@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "usuarioid": 1,
+        "planid": 1,
+        "monto": 50000,
+        "fecha_pago": "2024-06-15"
+    },
+    {
+        "id": 2,
+        "usuarioid": 2,
+        "planid": 2,
+        "monto": 100000,
+        "fecha_pago": "2024-06-17"
+    },
+    {
+        "id": 3,
+        "usuarioid": 3,
+        "planid": 3,
+        "monto": 200000,
+        "fecha_pago": "2024-06-20"
+    },
+    {
+        "id": 4,
+        "usuarioid": 4,
+        "planid": 1,
+        "monto": 50000,
+        "fecha_pago": "2024-06-22"
+    },
+    {
+        "id": 5,
+        "usuarioid": 5,
+        "planid": 2,
+        "monto": 100000,
+        "fecha_pago": "2024-06-25"
+    },
+    {
+        "id": 6,
+        "usuarioid": 6,
+        "planid": 3,
+        "monto": 200000,
+        "fecha_pago": "2024-06-28"
+    },
+    {
+        "id": 7,
+        "usuarioid": 7,
+        "planid": 1,
+        "monto": 50000,
+        "fecha_pago": "2024-07-01"
+    },
+    {
+        "id": 8,
+        "usuarioid": 8,
+        "planid": 2,
+        "monto": 100000,
+        "fecha_pago": "2024-07-04"
+    },
+    {
+        "id": 9,
+        "usuarioid": 9,
+        "planid": 3,
+        "monto": 200000,
+        "fecha_pago": "2024-07-07"
+    },
+    {
+        "id": 10,
+        "usuarioid": 10,
+        "planid": 1,
+        "monto": 50000,
+        "fecha_pago": "2024-07-10"
+    },
+    {
+        "id": 11,
+        "usuarioid": 11,
+        "planid": 2,
+        "monto": 100000,
+        "fecha_pago": "2024-07-13"
+    },
+    {
+        "id": 12,
+        "usuarioid": 12,
+        "planid": 3,
+        "monto": 200000,
+        "fecha_pago": "2024-07-16"
+    },
+    {
+        "id": 13,
+        "usuarioid": 13,
+        "planid": 1,
+        "monto": 50000,
+        "fecha_pago": "2024-07-19"
+    },
+    {
+        "id": 14,
+        "usuarioid": 14,
+        "planid": 2,
+        "monto": 100000,
+        "fecha_pago": "2024-07-22"
+    },
+    {
+        "id": 15,
+        "usuarioid": 15,
+        "planid": 3,
+        "monto": 200000,
+        "fecha_pago": "2024-07-25"
+    },
+    {
+        "id": 16,
+        "usuarioid": 16,
+        "planid": 1,
+        "monto": 50000,
+        "fecha_pago": "2024-07-28"
+    },
+    {
+        "id": 17,
+        "usuarioid": 17,
+        "planid": 2,
+        "monto": 100000,
+        "fecha_pago": "2024-07-31"
+    },
+    {
+        "id": 18,
+        "usuarioid": 18,
+        "planid": 3,
+        "monto": 200000,
+        "fecha_pago": "2024-08-03"
+    },
+    {
+        "id": 19,
+        "usuarioid": 19,
+        "planid": 1,
+        "monto": 50000,
+        "fecha_pago": "2024-08-06"
+    },
+    {
+        "id": 20,
+        "usuarioid": 20,
+        "planid": 2,
+        "monto": 100000,
+        "fecha_pago": "2024-08-09"
+    }
+]

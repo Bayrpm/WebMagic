@@ -1,0 +1,49 @@
+---
+import { Fragment } from "react";
+
+import comentarios from "../data/comentarios.json";
+import usuarios from "../data/usuarios.json";
+
+const getUserName = (usuarioId: number) => {
+  const usuario = usuarios.find((user) => user.id === usuarioId);
+  return usuario
+    ? { nombreCompleto: usuario.nombreCompleto, icono: usuario.icono }
+    : { nombreCompleto: "Usuario Desconocido", icono: "" };
+};
+---
+
+<div class="grid gap-8 mb-8 md:grid-cols-2 lg:grid-cols-4 m-16">
+    {comentarios.slice(0, 8).map((comentario) => {
+      const { nombreCompleto, icono } = getUserName(comentario.usuarioId);
+  
+      return (
+        <figure
+          id={comentario.id}
+          id={`comment-${comentario.id}`}
+          class="flex flex-col items-center justify-center p-8 text-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+        >
+          <blockquote class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <p class="my-4 text-gray-600 dark:text-gray-400">
+              {comentario.contenido}
+            </p>
+            <span class="text-yellow-500">
+              {"★".repeat(comentario.calificacion)}
+            </span>
+          </blockquote>
+          <figcaption class="flex items-center justify-center">
+            <img
+              class="rounded-full w-9 h-9"
+              src={icono}
+              alt={`Profile picture of ${nombreCompleto}`}
+            />
+            <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+              <div>{nombreCompleto}</div>
+              <div class="text-sm text-gray-500 dark:text-gray-400">
+                {comentario.fecha || "Fecha no disponible"}
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      );
+    })}
+  </div>

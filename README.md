@@ -9,3 +9,7 @@ Usamos:
 - FlowBite
 
 - Heroicons
+
+API:
+
+- https://randomuser.me/photos

@@ -53,25 +53,3 @@ import planes from "../data/planes.json";
 </div>
 
 
-<script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('[id^="show-more-btn-"]').forEach(button => {
-      const id = button.id.replace('show-more-btn-', '');
-      const list = document.getElementById(`expandable-list-${id}`);
-      let isExpanded = false;
-
-      button.addEventListener('click', function () {
-        if (isExpanded) {
-          // Contraer la lista
-          list.style.maxHeight = '0';
-          button.textContent = 'Show More';
-        } else {
-          // Expandir la lista
-          list.style.maxHeight = list.scrollHeight + 'px';
-          button.textContent = 'Show Less';
-        }
-        isExpanded = !isExpanded;
-      });
-    });
-  });
-</script>

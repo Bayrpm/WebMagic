@@ -3,9 +3,9 @@ import { Fragment } from "react";
 import planes from "../data/planes.json";
 ---
 
-<div class="flex flex-col md:flex-row">
+<div class="flex justify-center flex-col lg:flex-row xl:m-0 lg:ms-80">
   {planes.map((plan) => (
-    <div class="flex flex-col max-w-sm p-5 m-6 bg-white border border-gray-200 rounded-lg shadow sm:p-9 dark:bg-gray-800 dark:border-gray-700">
+    <div class="flex flex-col max-w-sm p-5 m-2 bg-white border border-gray-200 rounded-lg shadow sm:p-9 dark:bg-gray-800 dark:border-gray-700">
       <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
         {plan.nombre}
       </h5>
